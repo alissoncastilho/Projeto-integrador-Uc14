@@ -1,0 +1,82 @@
+<div class="page" data-name="cadastro">
+  <!-- Barra Superior -->
+  <div class="navbar">
+    <div class="navbar ">
+      <div class="left">
+        <a href="" class="link back">
+          <i class="icon f7-icons text-white"> arrow_left</i>                  
+        </a>
+        <div class="title text-white">Cadastro de usuário</div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- Fim NAV Bar -->
+  <div class="page-content">
+    <div class="block"> 
+
+      <form class="list" id="my-form">
+        <ul>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Nome</div>
+                <div class="item-input-wrap">
+                  <input class="text-color-black" type="text" name="nome_c" id="nome_c" placeholder="Digite seu nome">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">E-mail</div>
+                <div class="item-input-wrap">
+                  <input type="email" name="email_c" id="email_c" placeholder="seuemail@gmail.com">
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Senha</div>
+                <div class="item-input-wrap">
+                  <input type="password" name="senha_c" id="senha_c">
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label margin-bottom">Gênero</div>
+                <div class="item-input-wrap text-color-black">
+                  <input type="radio" name="sexo" id="masc"> Masculino
+                  <input type="radio" name="sexo" id="fem"> Feminino
+                  <input id="genero" type="hidden" value="">
+                </div>
+              </div>
+          </li>
+
+          <li>
+              <div class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Data de Nascimento</div>
+                  <div class="item-input-wrap">
+                    <input type="date" name="dataNascimento" id="dataNascimento">
+                  </div>
+                </div>
+              </div>
+            </li>
+
+        </ul> 
+        </form> 
+        <button class="button-round button button-fill bg-color-pink button-large red_c" id="cadastrar">
+            Gravar <i class="icon f7-icons">square_arrow_right</i>
+        </button>           
+      </div>
+    </div>
+
+</div> <!-- FIM CLASS PAGE -->

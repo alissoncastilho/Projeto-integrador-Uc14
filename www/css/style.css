@@ -1,0 +1,149 @@
+
+/* Agenda */
+.navbar-bg{
+    background-color: #f32179!important;
+}
+.title.menu{
+    width: 100%;
+    text-align: center!important;
+}
+.item-media.color_c{
+    background-color: #f32179;
+    border-radius: 50%;
+}
+.color_c span{
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    color: #f9f9f9;
+    text-transform: uppercase;
+}
+.item-media.color_c2{
+    background-color: rgb(255, 59, 48,0.4);
+    border-radius: 50%;
+}
+.color_c2 span{
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    color: #d31515;
+    text-transform: uppercase;
+}
+.small{
+    font-size: 0.8rem;
+}
+.list .item-content{
+    padding: 0.15rem 0!important;
+}
+.text-white{
+    color: #fff;
+}
+.content-block-title{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title.atividade{
+    text-align: left;
+    width: 100%;
+    padding: 0 0.5rem;
+}
+.color-text{
+    color: #270101;
+}
+.bg-color-red{
+    background-color: rgb(255, 59, 48,0.4)!important;
+}
+.panel2{
+    background-color: #1a1a1a;
+}
+
+
+.left .navbar a.link {
+    display: inline!important;
+}
+.titulo2{
+    font-size: 1.7em;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(73, 73, 73);
+    height: 300px;
+}
+.font{
+    font-size: 1.5em;
+}
+.font div{
+    padding: 20px;
+    border: 1px solid rgb(20, 34, 167);
+    background-color: rgb(245, 244, 244);
+}
+
+/* Frete */
+.frete .navbar-bg{
+    background-color: #ecd609!important;
+}
+.text-color-blue{
+    color: #1720a3!important;
+    font-weight: bold!important;
+    font-size: 1.2em!important;
+}
+
+
+/* Temperatura */
+
+.titulo{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(73, 73, 73);
+}
+.largura{
+    width: 100%;
+}
+
+
+/* Cidades */
+.carros .navbar-bg{
+    background-color:  rgb(6, 235, 6);
+}
+.popup.popup-inicial.modal-in{
+    background-color: #f32179;
+}
+.content-abertura{
+    width: 100%;
+    height: auto;  
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+}
+.text-center{
+    text-align: center;
+}
+
+.navbar{
+    background-color: #f32179!important;
+}
+/* Formatando imagem */
+.camera{
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.camera img{
+    width: 100%;
+    height: auto;
+}
+
+img.demo-lazy {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  div.demo-lazy {
+    background: #aaa;
+    background-size: cover;
+    height: 60vw;
+  }
