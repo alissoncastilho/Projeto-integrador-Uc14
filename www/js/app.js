@@ -274,11 +274,11 @@ function pageTarefas(){
       var valor = $("#valor").val();
 
       if(titulo.length < 5 || titulo.trim() == ""){
-        app.dialog.alert("Preencha o título corretamente","AVISO");
+        app.dialog.alert("Preencha o  Nome corretamente","AVISO");
         return false;
       }
       if(descricao.length > 100 || descricao.trim() == ""){
-        app.dialog.alert("Preencha a descrição corretamente","AVISO");
+        app.dialog.alert("Preencha a descrição do serviço corretamente","AVISO");
         return false;
       }
       if(dataTarefa < today){
@@ -297,13 +297,13 @@ function pageTarefas(){
         return false;
       }
       if(valor.length > 10 || valor.trim() == ""){
-        app.dialog.alert("Preencha o valor corretamente","AVISO");
+        app.dialog.alert("Preencha o valor total corretamente","AVISO");
         return false;
       }
 
       var notification = app.notification.create({
         title:'cadastro de cliente',
-        text:'clinte cadastrado com sucesso',
+        text:'Cliente cadastrado com sucesso',
         closeTimeout:3000,
       });
       // Inserindo informações no banco
